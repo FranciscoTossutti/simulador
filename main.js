@@ -5,10 +5,6 @@
 let producto1 = prompt("Ingresar un producto");
 let precio1 = parseFloat(prompt("Ingrese el precio del producto"));
 
-if (producto1 != ""){
-    producto1 = prompt("Porfavor, ingrese un producto")
-}
-
 while (isNaN(precio1)) {
     precio1 = parseFloat(prompt("Porfavor, ingrese un precio"))
 }
